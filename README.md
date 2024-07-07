@@ -67,7 +67,6 @@ titanic_data['Age'] = titanic_data['Age'].fillna(titanic_data['Age'].median())
 # Convert categorical variables to appropriate formats
 
 titanic_data['Sex'] = titanic_data['Sex'].astype('category').cat.codes
-
 titanic_data['Embarked'] = titanic_data['Embarked'].astype('category').cat.codes
 
 # Check the total number of survivors by gender
@@ -81,6 +80,7 @@ print(f"% of women who survived: {survivors_by_gender[0]*100}")
 # Print the percentage of men who survived
 
 print(f"% of men who survived: {survivors_by_gender[1]*100}")
+
 
 ![Screenshot 2024-07-07 102028](https://github.com/Chilukuri-NeethuReddy/PRODIGY_DS_02/assets/174725064/b658dd28-b1c8-41bb-a40f-8fa1937dced4)
 
@@ -108,6 +108,7 @@ plt.show()
 ![Screenshot 2024-07-07 102214](https://github.com/Chilukuri-NeethuReddy/PRODIGY_DS_02/assets/174725064/d07b1add-1dfa-4196-9a02-bfce19ced10c)
 
 
+python
 
 #Visualizing age distribution
 
@@ -125,6 +126,8 @@ plt.show()
 
 ![Screenshot 2024-07-07 102340](https://github.com/Chilukuri-NeethuReddy/PRODIGY_DS_02/assets/174725064/8a2a62b8-9a4d-4940-9d09-7550df3769d6)
 
+
+python
 
 #visualizing survival rates by gender
 
